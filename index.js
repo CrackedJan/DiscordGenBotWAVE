@@ -24,7 +24,7 @@ bot.on("ready", () => {
 });
 
 bot.on("message", message => {
-    if (message.channel.id === "Channel_ID") { //This will make the bot work only in that channel
+    if (message.channel.id === "744635392363462687") { //This will make the bot work only in that channel
         if (message.author.bot) return;
             var command = message.content
             .toLowerCase()
@@ -157,4 +157,4 @@ bot.on("message", message => {
     }
 });
 
-bot.login("Token");
+bot.login("NzQ0NjMzODc0MzUyNzAxNDQ2.XzmEVg.IDDa7rbPu3KLhDeigWsys91rjOU");
